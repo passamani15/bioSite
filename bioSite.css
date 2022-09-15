@@ -24,6 +24,7 @@ body {
 
   .sitefont{
     color: #274A59;
+
   }
   .w50 {
       width: 50%;
@@ -58,19 +59,21 @@ body {
 
   .imagediv {
     text-align: center;
-   
+    object-fit: cover;
   }
 
   .imagediv img{
 
     border-radius: 30px;
+    object-fit: cover;
+
+    
   }
   .contentdiv p ,.hobbiescontentdiv p {
     font-family: 'Tiro Bangla', serif;
     font-style: italic;
     font-size: 15px;
-    text-align: center;
-
+   
   }
   
   .backtotop{
@@ -116,3 +119,4 @@ body {
     margin-left: 10%;
     margin-top: 2%;
 }
+
