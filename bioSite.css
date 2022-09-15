@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+    background-color:#FFF3F0 ;
+  }
+  
+  .topnav {
+    overflow: hidden;
+    background-color: #FFF3F0;
+    float: right;
+    width: 100%;
+    box-shadow: -18px 3px 5px 0px #d5cece;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #274A59;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Tiro Bangla', serif;
+  }
+
+  .sitefont{
+    color: #274A59;
+  }
+  .w50 {
+      width: 50%;
+  }
+
+  .tile {
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+  }
+  .dinline {
+      display: inline-block;
+  }
+  .life {
+      text-decoration: underline;
+      text-align: center;
+      font-family: 'Tiro Bangla', serif;
+      font-style: italic;
+      font-size: 20px;
+      margin-bottom: 1%;
+  }
+
+  .hobbies {
+    text-decoration: underline;
+    font-family: 'Tiro Bangla', serif;
+    font-style: italic;
+    font-size: 30px;
+    margin-bottom: 1%;
+}
+
+  .imagediv {
+    text-align: center;
+   
+  }
+
+  .imagediv img{
+
+    border-radius: 30px;
+  }
+  .contentdiv p ,.hobbiescontentdiv p {
+    font-family: 'Tiro Bangla', serif;
+    font-style: italic;
+    font-size: 15px;
+    text-align: center;
+
+  }
+  
+  .backtotop{
+    font-family: 'Tiro Bangla', serif;
+    font-style: italic;
+    font-size: 15px;
+    float: right;  
+    text-decoration: none;
+    padding-bottom: 5%;
+    padding-right: 5%;
+  }
+
+  .ptop5{
+    padding-top: 5%;
+  }
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  .siteheading{
+      float: left;
+      margin-left: 2%;
+
+  }
+
+  .sitemenu{
+      float: right;
+      margin-top: 1%;
+      margin-right: 2%;
+  }
+
+  .contentdiv {
+    width: 60%;
+    display: inline-block;
+    margin-left: 20%;
+    margin-top: 2%;
+}
+
+.hobbiescontentdiv {
+    width: 80%;
+    display: inline-block;
+    margin-left: 10%;
+    margin-top: 2%;
+}
