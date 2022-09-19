@@ -78,6 +78,7 @@ body {
     font-style: italic;
     font-size: 15px;
     word-spacing: 1px;
+   height: max-content;
    
   }
   
