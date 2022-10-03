@@ -61,11 +61,14 @@ body {
 }
 
   .imagediv {
-    text-align: center;
-    object-fit: cover;
+  
+      text-align: center;
+      object-fit: cover;
       background: url(bioSite/images/img4.JPG) no-repeat;
-      
+      margin-left: 80px;
+      margin-right: 5%;
   }
+  
 
   .imagediv img{
 
