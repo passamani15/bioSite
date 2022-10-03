@@ -6,7 +6,7 @@ body {
   
   .topnav {
     overflow: hidden;
-    background-color: #FFF3F0;
+    background-color: #feeae5;
     float: right;
     width: 100%;
     box-shadow: -18px 3px 5px 0px #d5cece;
@@ -39,6 +39,9 @@ body {
   }
   .dinline {
       display: inline-block;
+      margin-left: 30px;
+      margin-bottom: 1px;
+      margin-right: 10%;
   }
   .life {
       text-decoration: underline;
@@ -73,14 +76,23 @@ body {
 
     
   }
-  .contentdiv p ,.hobbiescontentdiv p {
+  .contentdiv p, .hobbiescontentdiv p {
     font-family: 'Tiro Bangla', serif;
     font-style: italic;
     font-size: 15px;
     word-spacing: 1px;
-   height: max-content;
-   
-  }
+    height: max-content;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+  
+
+.hobbiescontentdiv {
+    width: 80%;
+    display: inline-block;
+    margin-left: 5%;
+    margin-top: 2%;
+}
   
   .backtotop{
     font-family: 'Tiro Bangla', serif;
@@ -126,3 +138,8 @@ body {
     margin-top: 2%;
 }
 
+a {
+  text-decoration: none;
+  color: rgb(32, 122, 206);
+  
+}
